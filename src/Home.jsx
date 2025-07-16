@@ -31,14 +31,6 @@ function Home() {
                         Within Communities
                       </p>
                       <p>
-                        <FaCheckCircle className="list-icon" /> Support through
-                        Outreach Programs
-                      </p>
-                    </ul>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="initiatives-list">
-                      <p>
                         <FaCheckCircle className="list-icon" /> Strengthening
                         Women's Leadership Roles
                       </p>
@@ -46,15 +38,7 @@ function Home() {
                         <FaCheckCircle className="list-icon" /> Building Skills
                         for Economic Empowerment
                       </p>
-                      <p>
-                        <FaCheckCircle className="list-icon" /> Fostering
-                        Creative Collaboration
-                      </p>
-                      <p>
-                        <FaCheckCircle className="list-icon" /> Join Us in
-                        Making a Difference
-                      </p>
-                    </div>
+                    </ul>
                   </div>
                 </div>
               </div>

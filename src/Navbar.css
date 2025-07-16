@@ -49,13 +49,44 @@
   box-shadow: none;
 }
 
-@media (max-width: 991px) {
+/* Add transition for navbar collapse */
+.navbar-collapse {
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-collapse.collapsing {
+  height: auto;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-collapse.show {
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
   .navbar-nav {
-    padding: 20px 0;
+    padding: 10px 0;
+    opacity: 0;
+    animation: fadeIn 0.3s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .navbar-brand h1 {
+    font-size: 1.5rem;
   }
 
   .nav-item {
     text-align: center;
-    padding: 10px 0;
+    padding: 5px 0;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+    transition: all 0.3s ease;
   }
 }

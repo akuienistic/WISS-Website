@@ -6,8 +6,7 @@ function AboutUs() {
       id: 1,
       name: "Ms. Adeng Leek",
       position: "Founder & President Of WISS",
-      image:
-        "/Adeng.jpeg",
+      image: "/Adeng.jpeg",
     },
     {
       id: 2,
@@ -48,7 +47,7 @@ function AboutUs() {
             <p className="team-description">
               Enlisted below are the visionary minds who sat down and brought
               about the idea of Empowering Women In the Youngest Nation in The
-              World. Their philosophy was purely to promte Equality and avoid
+              World. Their philosophy was purely to promote Equality and avoid
               SGB - Violence.
             </p>
           </div>

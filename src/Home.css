@@ -93,13 +93,16 @@
 }
 
 @media (max-width: 768px) {
-  .hero-content {
-    padding-right: 0;
+  .hero-title,
+  .hero-text {
     text-align: center;
   }
 
   .initiatives-list {
-    padding-left: 2rem;
-    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 1rem;
   }
 }
