@@ -6,7 +6,7 @@ function AboutUs() {
       id: 1,
       name: "Ms. Adeng Leek",
       position: "Founder & President Of WISS",
-      image: "/Adeng.jpeg",
+      image: "/BOSS.webp",
     },
     {
       id: 2,

@@ -73,12 +73,16 @@ function Testimonials() {
           <div className="row align-items-center justify-content-center">
             <div className="col-md-2 col-4 mb-4">
               <div className="partner-logo">
-                <img src="AAML.jpg" alt="Partner 1" className="partner-img" />
+                <img src="AAML.webp" alt="Partner 1" className="partner-img" />
               </div>
             </div>
             <div className="col-md-2 col-4 mb-4">
               <div className="partner-logo">
-                <img src="UNMISS.png" alt="Partner 2" className="partner-img" />
+                <img
+                  src="UNMISS.webp"
+                  alt="Partner 2"
+                  className="partner-img"
+                />
               </div>
             </div>
             <div className="col-md-2 col-4 mb-4">
@@ -97,7 +101,7 @@ function Testimonials() {
             </div>
             <div className="col-md-2 col-4 mb-4">
               <div className="partner-logo">
-                <img src="UN.png" alt="Partner 5" className="partner-img" />
+                <img src="UN.webp" alt="Partner 5" className="partner-img" />
               </div>
             </div>
           </div>

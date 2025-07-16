@@ -46,7 +46,7 @@ function Home() {
           </div>
           <div className="col-lg-6">
             <div className="hero-image">
-              <img src="/Women.png" className="img-fluid rounded" />
+              <img src="/Women.webp" className="img-fluid rounded" />
             </div>
           </div>
         </div>
