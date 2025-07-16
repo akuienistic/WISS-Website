@@ -1,0 +1,128 @@
+.testimonials-section {
+  padding: 80px 0;
+  background-color: #6f42c1;
+}
+
+.testimonial-header {
+  padding-right: 30px;
+}
+
+.testimonial-header h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.testimonial-header h2:after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 3px;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+}
+
+.testimonial-header p {
+  color: #fff;
+  line-height: 1.8;
+}
+
+.testimonials-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.testimonial-card {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+  box-shadow: 0 50px 50px rgba(0, 0, 0, 0.514);
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+.testimonial-text blockquote {
+  font-style: italic;
+  color: #6c757d;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.testimonial-rating {
+  margin-bottom: 15px;
+}
+
+.star-icon {
+  color: #ffc107;
+  margin-right: 5px;
+}
+
+.testimonial-author h5 {
+  font-weight: 600;
+  color: #343a40;
+  margin-bottom: 0;
+}
+
+.partners-section {
+  /* background-color: #6f42c1; */
+  padding: 60px 0;
+  margin-top: 80px;
+}
+
+.partners-text {
+  color: #fff;
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto 40px;
+}
+
+.partner-logo {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  transition: transform 0.3s ease;
+}
+
+.partner-img {
+  max-width: 100%;
+  max-height: 80px;
+  object-fit: contain;
+  /* Removing the filter to ensure images are visible */
+}
+
+.partner-logo:hover {
+  transform: scale(1.05);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 767px) {
+  .testimonial-header {
+    padding-right: 0;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .testimonial-header h2:after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

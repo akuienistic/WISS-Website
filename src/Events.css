@@ -1,0 +1,86 @@
+.events-section {
+  padding: 80px 0;
+  background-color: #000;
+}
+
+.events-header {
+  padding-right: 30px;
+}
+
+.events-header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.events-header h2:after {
+  content: "";
+  position: absolute;
+  width: 140px;
+  height: 3px;
+  background-color: #e83e8c;
+  bottom: 0;
+  left: 0;
+}
+
+.events-header p {
+  color: #fff;
+  line-height: 1.8;
+}
+
+.event-card {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.event-date {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.calendar-icon {
+  color: #e83e8c;
+  margin-right: 10px;
+}
+
+.event-date span {
+  color: #e83e8c;
+  font-weight: 600;
+}
+
+.event-title {
+  font-weight: 600;
+  color: #343a40;
+  margin-bottom: 15px;
+}
+
+.event-description {
+  color: #6c757d;
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .events-header {
+    padding-right: 0;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .events-header h2:after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

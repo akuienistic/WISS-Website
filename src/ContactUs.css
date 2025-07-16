@@ -1,0 +1,151 @@
+.contact-section {
+  padding: 80px 0;
+  background-color: #6f42c1;
+}
+
+.contact-info {
+  padding-right: 30px;
+}
+
+.contact-info h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.contact-info h2:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  height: 3px;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+}
+
+.contact-info p {
+  color: #fff;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.contact-details {
+  margin-bottom: 30px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.contact-icon {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.contact-item h5 {
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.contact-item p {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #e83e8c;
+  color: #fff;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.social-link:hover {
+  background-color: #343a40;
+  transform: translateY(-3px);
+}
+
+.contact-form-container {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.form-control {
+  border: 1px solid #6f42c1;
+  outline: none !important;
+  border-radius: 5px;
+  padding: 10px 13px;
+}
+
+.form-control:focus {
+  border-color: #e83e8c;
+  outline: none !important;
+  box-shadow: none !important;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus::placeholder {
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+
+.btn-primary {
+  background-color: #e83e8c;
+  border-color: #e83e8c;
+  padding: 12px 30px;
+  font-weight: 600;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #d83178;
+  border-color: #d83178;
+  transform: translateY(-3px);
+}
+
+.form-success {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.form-success h4 {
+  color: #28a745;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.form-success p {
+  color: #6c757d;
+}
+
+.map-container {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 767px) {
+  .contact-info {
+    padding-right: 0;
+    margin-bottom: 40px;
+  }
+}
